@@ -12,20 +12,20 @@ function About() {
                 <Col className="gutter-row" span={8}>
                     <div style={style}>
                         <Card hoverable
-                            cover={<img alt="Director" src="images/owners/director.jpeg" />}>
+                            cover={<img alt="Director" src="/images/owners/director.jpeg" />}>
                             <Meta title="Director Name" description="Lorem ipsum" />
                         </Card>
                     </div>
                 </Col>
                 <Col className="gutter-row" span={8}>
                     <Card hoverable
-                        cover={<img alt="CEO" src="images/owners/ceo.png" />}>
+                        cover={<img alt="CEO" src="/images/owners/ceo.png" />}>
                         <Meta title="Ceo Name" description="Lorem ipsum" />
                     </Card>
                 </Col>
                 <Col className="gutter-row" span={8}>
                     <Card hoverable
-                        cover={<img alt="Director" src="images/owners/director2.png" />}>
+                        cover={<img alt="Director" src="/images/owners/director2.png" />}>
                         <Meta title="Director Name" description="Lorem ipsum" />
                     </Card>
                 </Col>
