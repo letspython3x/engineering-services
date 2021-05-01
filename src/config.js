@@ -5,7 +5,6 @@ class AppConfig extends Component {
     static homePageUrl = '/home';
     static aboutPageUrl = '/about';
     static contactPageUrl = '/contact';
-    static servicesPageUrl = '/services';
     static dashboardPageUrl = '/dashboard';
 }
 
