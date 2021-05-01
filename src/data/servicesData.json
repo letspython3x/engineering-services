@@ -4,7 +4,7 @@
         "title": "Ltbijxprcf",
         "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
         "category": "category-1",
-        "sub-category": "sub-category-2",
+        "subCategory": "subCategory-2",
         "imageName": "services.jpeg"
     },
     {
@@ -12,63 +12,63 @@
         "title": "Drogbzdafd",
         "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
         "category": "category-0",
-        "sub-category": "sub-category-1",
+        "subCategory": "subCategory-1",
         "imageName": "services.jpeg"
     },
     {
         "id": 3,
         "title": "Gdjygnbnim",
         "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
-        "category": "category-3",
-        "sub-category": "sub-category-1",
+        "category": "category-0",
+        "subCategory": "subCategory-1",
         "imageName": "services.jpeg"
     },
     {
         "id": 4,
         "title": "Vudfhjwcse",
         "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
-        "category": "category-3",
-        "sub-category": "sub-category-0",
+        "category": "category-0",
+        "subCategory": "subCategory-0",
         "imageName": "services.jpeg"
     },
     {
         "id": 5,
         "title": "Brjmucnicd",
         "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
-        "category": "category-3",
-        "sub-category": "sub-category-3",
+        "category": "category-0",
+        "subCategory": "subCategory-3",
         "imageName": "services.jpeg"
     },
     {
         "id": 6,
         "title": "Wgwaohakpg",
         "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
-        "category": "category-2",
-        "sub-category": "sub-category-0",
+        "category": "category-1",
+        "subCategory": "subCategory-0",
         "imageName": "services.jpeg"
     },
     {
         "id": 7,
         "title": "Bxnprdpmrf",
         "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
-        "category": "category-2",
-        "sub-category": "sub-category-1",
+        "category": "category-1",
+        "subCategory": "subCategory-1",
         "imageName": "services.jpeg"
     },
     {
         "id": 8,
         "title": "Kaagisorrn",
         "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
-        "category": "category-2",
-        "sub-category": "sub-category-2",
+        "category": "category-0",
+        "subCategory": "subCategory-2",
         "imageName": "services.jpeg"
     },
     {
         "id": 9,
         "title": "Uvbvtpquaj",
         "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
-        "category": "category-2",
-        "sub-category": "sub-category-1",
+        "category": "category-1",
+        "subCategory": "subCategory-1",
         "imageName": "services.jpeg"
     },
     {
@@ -76,7 +76,7 @@
         "title": "Dikptfqvgv",
         "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
         "category": "category-0",
-        "sub-category": "sub-category-0",
+        "subCategory": "subCategory-0",
         "imageName": "services.jpeg"
     }
 ]
