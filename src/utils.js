@@ -6,16 +6,17 @@ import Services from "./components/Services";
 const {SubMenu} = Menu;
 
 export function createCategorySubMenu(servicesData) {
+    console.log("Inside utils createCategorySubMenu")
     const activeStyle = {
         color: 'white'
     }
+
     let container = []
-    console.log("SERVICES DATA: ", servicesData)
     for (let key in servicesData) {
         let innerMenu = servicesData[key].map(service =>
             <Menu.Item key={service}>
-                <NavLink to={`/${key}/${service}`}
-                         activeStyle={activeStyle}>{service}
+                <NavLink to={`/${key}/${service}`} activeStyle={activeStyle}>
+                    {service}
                 </NavLink>
             </Menu.Item>
         )
@@ -24,31 +25,29 @@ export function createCategorySubMenu(servicesData) {
                 {innerMenu}
             </SubMenu>)
     }
-    console.log("CONTAINER: ", container)
     return container
 }
 
 export function getCategories(servicesData) {
+    console.log("Inside utils getCategories")
+
     let categories = servicesData.map(service => [service.category, []])
-    console.log("Categories: ", categories)
     let categoryKeys = Object.fromEntries(categories);
-    console.log("Category Keys initial: ", categoryKeys)
 
     for (let i = 0; i < servicesData.length; i++) {
         for (let key in categoryKeys) {
-            let index = categoryKeys[key].indexOf(servicesData[i].sub_category)
-            console.log(key, servicesData[i].category, index)
+            let index = categoryKeys[key].indexOf(servicesData[i].subCategory)
             if (key === servicesData[i].category && index === -1) {
-                categoryKeys[key].push(servicesData[i].sub_category)
+                categoryKeys[key].push(servicesData[i].subCategory)
             }
         }
     }
-    console.log("Category Keys: ", categoryKeys)
     return categoryKeys
 }
 
 
 export function createServiceRoutes(servicesKeys) {
+    console.log("Inside utils createServiceRoutes")
     let container = []
     for (let category in servicesKeys) {
         let routes = servicesKeys[category].map(subCategory =>
